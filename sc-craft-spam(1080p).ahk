@@ -19,3 +19,5 @@ Sleep 47
 Send "{e Up}"
 Sleep 15
 }
+
+F10::ExitApp
