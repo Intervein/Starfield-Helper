@@ -1,4 +1,6 @@
-﻿SetKeyDelay 50, 50
+#Requires AutoHotkey v2.0
+#SingleInstance Force
+InstallKeybdHook
 
 Numpad3:: {
     static toggle := false
@@ -6,8 +8,10 @@ Numpad3:: {
 }
 
 Espam() {
-    SendEvent('e')
-    SendEvent('e')
+Send "{e Down}"
+Sleep 30
+Send "{e Up}"
+Sleep 15
 }
 
-
+^Numpad3::ExitApp
