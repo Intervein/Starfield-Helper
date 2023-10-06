@@ -20,4 +20,4 @@ CapsLock:: {
 }
 #HotIf
 
-F10:: ExitApp
+F10::ExitApp
