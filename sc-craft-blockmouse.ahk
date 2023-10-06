@@ -38,3 +38,5 @@ StarfieldCraft() {
 F12:: {
     BlockInput 'MouseMoveOff'
 }
+
+F10::ExitApp
